@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hubballi&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html{
+    font-family: 'Hubballi', cursive;
+}
+
+h1, h3{
+    font-family: 'Fredoka One', cursive;
+}
+
+main{
+    width: 900px;
+    margin: auto;
+}
+
+h1{
+    margin: 40px auto;
+    text-align: center;
+    color: #E5316F;
+}
+
+main > p{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    height: 70px;
+    margin: 15px 10px;
+    width: calc((100% / 3) - 20px);
+    float: left;
+    box-shadow: 0 0 10px grey;
+}
+
+a{
+    color: #0A82CF;
+    text-decoration: none;
+}
+
+.card img{
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.card h3{
+    font-size: 16px;
+}
+
+.card p, a{
+    font-size: 14px;
+}
+
+.card *:not(img){
+    margin: 5px 0;
+}
